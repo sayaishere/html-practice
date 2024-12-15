@@ -3,9 +3,10 @@
 <html>
     <head>
         <title>Forms</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <form>
+        <form novalidate>
             <div>
                 <label for="fname">First name: </label>
                 <input id="fname" name="fname" placeholder="John" type="text" />
@@ -35,9 +36,9 @@
                 <input id="password" name="password"  type="password" />
             </div>
             <br>
-            <div>
+            <div class="terms">
                 <input id="terms" name="terms" type="checkbox"/>
-                Accept terms and conditions
+                <span>Accept terms and conditions</span>
             </div>
             <br>
             <div>
